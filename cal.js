@@ -23,7 +23,7 @@ for (item of buttons) {
             h = screen.value + '=' + eval(screenValue);
             screen.value = eval(screenValue);
         }
-        else if (buttonText == '√ ') {
+        else if (buttonText == 'sqrt') {
             screenValue = Math.sqrt(screenValue);
             screen.value = screenValue;
         }
